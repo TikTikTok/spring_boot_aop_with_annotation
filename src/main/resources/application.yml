@@ -1,0 +1,43 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useSSL=false
+    username:
+    password:
+  jpa:
+    database: MySQL
+    hibernate.ddl-auto: create
+    generate-ddl: true
+    show-sql: true
+
+  application:
+    name: Spring Boot Test Application
+
+
+  logging:
+    level:
+      org.springframework: ERROR
+      com.mkyong: DEBUG
+
+  spring:
+    profiles:
+      active: dev
+    main:
+      banner-mode: off
+
+  email: chandan.singh116@gmail.com
+  thread-pool: 10
+
+  wordpress:
+    menus:
+    - title: Home
+      name: Home
+      path: /
+    - title: About
+      name: About
+      path: /about
+    themes:
+      default-folder: /wp-content/themes/mkyong
+    servers:
+    - ip: 127.0.0.1
+      path: /dev1
