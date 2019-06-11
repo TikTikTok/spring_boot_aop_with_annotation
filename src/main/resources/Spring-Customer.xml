@@ -13,5 +13,11 @@
 
     <bean id="logAspect" class="com.spring.boot.aop.LoggingAspect" />
 
+    <bean id="operation" class="aop.with.different.pointcuts.OperationImpl"/>
+
+    <bean id="aspectBean" class="aop.with.different.pointcuts.TrackOperationAspect" />
+
+    <!--<bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator" />-->
+
 
 </beans>
