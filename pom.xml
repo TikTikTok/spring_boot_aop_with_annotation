@@ -11,7 +11,7 @@
 	<groupId>com.spring.boot</groupId>
 	<artifactId>spring_boot_app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring_boot_app</name>
+	<name>spring_boot_with_aop</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
